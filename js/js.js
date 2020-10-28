@@ -191,7 +191,7 @@ const SearchBar = (function () {
             //Input
             let inputSS = document.getElementById("input_buscador");
             let contenedor = document.getElementById("contenedor");
-             ft();
+             //ft();
             inputSS.addEventListener("keyup", async function (event) {
                 event.preventDefault();
                 let valor_input = inputSS.value;
