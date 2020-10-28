@@ -1,0 +1,25 @@
+#formulario{
+    width: 30%;
+    margin: auto;
+    font-size: 30px;
+    
+}
+
+#formulario div{
+    display: flex;
+
+}
+
+#formulario div label{
+
+    flex: 1;
+}
+#formulario div input{
+
+    flex: 1;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction:column;
+}
