@@ -53,9 +53,9 @@ const SearchBar = (function () {
             inputSS.addEventListener("keyup", async function (event) {
                 event.preventDefault();
                 let valor_input = inputSS.value;
-                let imagePath = '/pelis/films.txt';
-                let x = readTextFile(imagePath);
-                let modX = x.split("\n", x.length);
+                // let imagePath = '/pelis/films.txt';
+                // let x = readTextFile(imagePath);
+                // let modX = x.split("\n", x.length);
                 // console.log(modX);
                 let f = "";
                 PELICULAS.forEach((element, index) => {
