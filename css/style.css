@@ -71,13 +71,10 @@ body #ojos img {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     #pixi{
-        perspective: 1000px;
-        position: absolute;
-        height: 50vh;
-        width: 50vw;
+      display: none;
     }
 
     #pixi canvas{
