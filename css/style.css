@@ -1,3 +1,18 @@
+body {
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+}
+
+body #ojos {
+    width: 50%;
+}
+
+body #ojos img {
+    height: 40%;
+    width: 40%;
+}
+
 #formulario {
     width: 500px;
     margin: auto;
@@ -6,19 +21,16 @@
 
 #formulario div {
     display: flex;
-    /* border: 1px solid black; */
     padding: 1.2%;
     -webkit-box-shadow: 8px 9px 16px -3px #000000;
-    box-shadow: 8px 9px 16px -3px #000000;
+    box-shadow: 8px 9px 16px -3px #ffffff;
     margin: 0 auto;
 }
 
 #formulario div label {
-    /* flex: 3; */
 }
 
 #formulario div input {
-    /* flex: 1; */
 }
 
 #contenedor {
@@ -44,5 +56,10 @@
 }
 
 .pelicula {
-    margin: 8px;
+    width: 40%;
+    padding: 5px;
+}
+
+.pelicula:hover {
+    border: aliceblue solid 2px;
 }
