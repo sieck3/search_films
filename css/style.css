@@ -27,12 +27,6 @@ body #ojos img {
     margin: 0 auto;
 }
 
-#formulario div label {
-}
-
-#formulario div input {
-}
-
 #contenedor {
     display: flex;
     flex-direction: column;
@@ -62,4 +56,16 @@ body #ojos img {
 
 .pelicula:hover {
     border: aliceblue solid 2px;
+}
+
+#pixi{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pixi canvas{
+    width: 100%;
+    height: 100%;
 }
