@@ -1,25 +1,48 @@
-#formulario{
-    width: 30%;
+#formulario {
+    width: 500px;
     margin: auto;
     font-size: 30px;
-    
 }
 
-#formulario div{
+#formulario div {
     display: flex;
-
+    /* border: 1px solid black; */
+    padding: 1.2%;
+    -webkit-box-shadow: 8px 9px 16px -3px #000000;
+    box-shadow: 8px 9px 16px -3px #000000;
+    margin: 0 auto;
 }
 
-#formulario div label{
-
-    flex: 1;
-}
-#formulario div input{
-
-    flex: 1;
+#formulario div label {
+    /* flex: 3; */
 }
 
-#contenedor{
+#formulario div input {
+    /* flex: 1; */
+}
+
+#contenedor {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.object {
+    animation: MoveUpDown 1.5s linear infinite;
+    position: absolute;
+    left: 0;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        Top: 0;
+    }
+    50% {
+        top: 5px;
+    }
+}
+
+.pelicula {
+    margin: 8px;
 }
